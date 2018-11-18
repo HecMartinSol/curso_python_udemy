@@ -1,6 +1,5 @@
 # coding=utf-8
-
-def cargar_pais_poblacion(n = 10):
+def cargar_pais_poblacion(n=10):
 	paises = []
 	for i in range(0, n):
 		nombre = str(raw_input("Nombre: "))
